@@ -16,9 +16,6 @@
 		841016612A0A281A0063B348 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841016602A0A281A0063B348 /* LoginScreenViewController.swift */; };
 		841016632A0A2C170063B348 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841016622A0A2C170063B348 /* LoginScreenView.swift */; };
 		84D7153A2A0A33FE00A2A450 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 84D715392A0A33FE00A2A450 /* RiveRuntime */; };
-		84D71DAE2A0A386000A2A450 /* Triangle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 84D71DA32A0A386000A2A450 /* Triangle.svg */; };
-		84D71DAF2A0A386000A2A450 /* Circle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 84D71DA42A0A386000A2A450 /* Circle.svg */; };
-		84D71DB02A0A386000A2A450 /* Hexagon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 84D71DA52A0A386000A2A450 /* Hexagon.svg */; };
 		84D71DB12A0A386000A2A450 /* house.riv in Resources */ = {isa = PBXBuildFile; fileRef = 84D71DA72A0A386000A2A450 /* house.riv */; };
 		84D71DB22A0A386000A2A450 /* confetti.riv in Resources */ = {isa = PBXBuildFile; fileRef = 84D71DA82A0A386000A2A450 /* confetti.riv */; };
 		84D71DB32A0A386000A2A450 /* check.riv in Resources */ = {isa = PBXBuildFile; fileRef = 84D71DA92A0A386000A2A450 /* check.riv */; };
@@ -56,9 +53,6 @@
 		8410165E2A0A1F3D0063B348 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		841016602A0A281A0063B348 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		841016622A0A2C170063B348 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
-		84D71DA32A0A386000A2A450 /* Triangle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Triangle.svg; sourceTree = "<group>"; };
-		84D71DA42A0A386000A2A450 /* Circle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Circle.svg; sourceTree = "<group>"; };
-		84D71DA52A0A386000A2A450 /* Hexagon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hexagon.svg; sourceTree = "<group>"; };
 		84D71DA72A0A386000A2A450 /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
 		84D71DA82A0A386000A2A450 /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
 		84D71DA92A0A386000A2A450 /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
@@ -101,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				84D71DA62A0A386000A2A450 /* RiveAssets */,
-				84D71DA22A0A386000A2A450 /* SVG */,
 				841016492A090D700063B348 /* UiKitTutorial */,
 				841016482A090D700063B348 /* Products */,
 			);
@@ -146,17 +139,6 @@
 				8410165E2A0A1F3D0063B348 /* TabBarViewController.swift */,
 			);
 			path = TabBar;
-			sourceTree = "<group>";
-		};
-		84D71DA22A0A386000A2A450 /* SVG */ = {
-			isa = PBXGroup;
-			children = (
-				84D71DA32A0A386000A2A450 /* Triangle.svg */,
-				84D71DA42A0A386000A2A450 /* Circle.svg */,
-				84D71DA52A0A386000A2A450 /* Hexagon.svg */,
-			);
-			name = SVG;
-			path = "SwiftUI Animations/SVG";
 			sourceTree = "<group>";
 		};
 		84D71DA62A0A386000A2A450 /* RiveAssets */ = {
@@ -327,9 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D71DDD2A0CDE3D00A2A450 /* spinner.riv in Resources */,
-				84D71DAE2A0A386000A2A450 /* Triangle.svg in Resources */,
 				841016572A090D710063B348 /* LaunchScreen.storyboard in Resources */,
-				84D71DAF2A0A386000A2A450 /* Circle.svg in Resources */,
 				841016542A090D710063B348 /* Assets.xcassets in Resources */,
 				84D71DB22A0A386000A2A450 /* confetti.riv in Resources */,
 				84D71DB52A0A386000A2A450 /* shapes.riv in Resources */,
@@ -340,7 +320,6 @@
 				84D71DB32A0A386000A2A450 /* check.riv in Resources */,
 				84D71DD52A0CD40900A2A450 /* loading.riv in Resources */,
 				84D71DB72A0A386000A2A450 /* icons.riv in Resources */,
-				84D71DB02A0A386000A2A450 /* Hexagon.svg in Resources */,
 				84D71DB42A0A386000A2A450 /* menu_button.riv in Resources */,
 				84D71DFC2A0E03EF00A2A450 /* bouncing_ball.riv in Resources */,
 			);
